@@ -1,0 +1,60 @@
+/* ================================
+   Main Layout
+   ================================ */
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+/* ================================
+   Test Sample Banner
+   ================================ */
+.test-sample-banner {
+  background-color: rgba(245, 158, 11, 0.1);
+  border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.banner-text {
+  font-size: 0.875rem;
+  color: #b45309;
+}
+
+.dark .banner-text {
+  color: #fbbf24;
+}
+
+/* ================================
+   Dividers
+   ================================ */
+.divider-v {
+  height: 24px;
+  width: 1px;
+  background-color: var(--border);
+}
+
+.divider-v-sm {
+  height: 16px;
+  width: 1px;
+  background-color: var(--border);
+  margin: 0 0.25rem;
+}
+
+.divider-h {
+  height: 1px;
+  width: 100%;
+  background-color: var(--border);
+}
